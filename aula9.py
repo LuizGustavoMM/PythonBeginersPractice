@@ -1,0 +1,12 @@
+frase = str(input('Digite uma frase e saiba seu comprimento e quantas silabas tem: '))
+comp = len(frase)
+frase.capitalize()
+frase.strip()
+print('Essa frase possue o comprimento de {} letras.'.format(comp))
+print('Essa frase possui {} a.' .format(frase.count('a')))
+print('Essa frase possui {} e.' .format(frase.count('e')))
+print('Essa frase possui {} i.' .format(frase.count('i')))
+print('Essa frase possui {} o.' .format(frase.count('o')))
+print('Essa frase possui {} u.' .format(frase.count('u')))
+'''nfrase = input('Digite sua frase desejada: ')
+nfrase.split()'''

@@ -1,0 +1,6 @@
+n1 = int(input('Digite um número de 0 a 9999: '))
+n = str(n1)
+print('Unidade:', n[0])
+print('Dezena:', n[1])
+print('Centena:', n[2])
+print('Milhar:', n[3])
