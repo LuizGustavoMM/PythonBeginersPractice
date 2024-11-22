@@ -10,14 +10,19 @@ while True:
     if p1 == 1:
         if s % 2 == 0:
             cont += 1
-            print(f'Você digitou {n} e o computador {p2}\n{n} + {p2}= {n+p2}\n\nVocê venceu! Contador de vitórias [{cont}]\n')
+            print(f'Você digitou {n} e o computador {p2}\n{n} + {p2} = {n+p2}\n\nVocê venceu! Contador de vitórias [{cont}]\n')
             time.sleep(1)
+        else:
+            print(f'A soma dos números foi: {s}')
+            print('Você perdeu!')
+
     if p1 == 2:
         if s % 3 == 0:
             cont += 1
-            print(f'Você digitou {n} e o computador {p2}\n{n} + {p2}= {n+p2}\n\nVocê venceu! Contador de vitórias [{cont}]\n')
+            print(f'Você digitou {n} e o computador {p2}\n{n} + {p2} = {n+p2}\n\nVocê venceu! Contador de vitórias [{cont}]\n')
             time.sleep(1)
-    else:
-        break
-print(s)
-print('Você perdeu!')
+        else:
+            print(f'A soma dos números foi: {s}')
+            print('Você perdeu!')
+  
+        
