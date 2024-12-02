@@ -4,4 +4,5 @@ while True:
         for c in range (1, 11):
             print(f'{n} X {c} = {n*c}')
     else:
+        print('Número negativo não disponível.')
         break
