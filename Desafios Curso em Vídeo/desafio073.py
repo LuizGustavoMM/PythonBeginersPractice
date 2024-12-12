@@ -2,7 +2,7 @@ times = ('Chapecoense', 'Grêmio', 'Flamengo', 'Internacional', 'Atlético-PR', 
 
 print(f'\nOs 20 primeiros colocados são: {times}\n')
 
-print(f'\nOs 5 primeiros colocados são: {times[0:6]}\n')
+print(f'\nOs 5 primeiros colocados são: {times[0:5]}\n')
 
 print(f'\nOs 4 últimos colocados são: {times[17:21]}\n')
 
